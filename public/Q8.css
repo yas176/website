@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-menu {
+    background-color: #ffe4e1; 
+    padding: 1em;
+    width: 200px;
+    min-height: 80vh;
+}
+
+.side-menu nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu nav ul li {
+    margin-bottom: 10px;
+}
+
+.side-menu nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.side-menu nav ul li a:hover {
+    color: #ff69b4; 
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 1em;
+}
+
+footer {
+    background-color: #ff69b4; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.website-skeleton img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* for find a pet file*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+#formContainer {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black; 
+}
+
+h1 {
+    text-align: center;
+}
+
+#formContainer label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#formContainer input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#formContainer input[type="submit"] {
+    background-color: Pink;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formContainer input[type="submit"]:hover {
+    background-color: pink;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
